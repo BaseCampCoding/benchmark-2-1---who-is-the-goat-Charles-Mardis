@@ -6,9 +6,7 @@
     margin: 0px;
     }
 
-    .item {
-        align-self: auto | flex-start | flex-end | center | baseline | stretch;
-    }
+    
 
     .image-size {
         max-width: 300px;
@@ -35,9 +33,7 @@
     margin: 0px;
     }
 
-    .item {
-        align-self: auto | flex-start | flex-end | center | baseline | stretch;
-    }
+    
 
     .image-size {
         max-width: 300px;
@@ -55,4 +51,29 @@
     }
 }
 
+@media only screen and (max-device-width: 1920px) {
+
+    body {
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+    margin: 0px;
+    }
+
+    
+
+    .image-size {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    p {
+        font-family: monospace;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
 
