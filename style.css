@@ -1,3 +1,4 @@
+@media (max-width: 480px) {
 body {
     text-align: center;
     background-color: rgb(160, 160, 160);
@@ -16,4 +17,5 @@ h1 {
 }
 h2 {
     font-size: 30px;
+}
 }
